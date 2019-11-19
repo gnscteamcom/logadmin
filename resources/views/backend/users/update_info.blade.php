@@ -49,8 +49,8 @@
                 <label class="layui-form-label">用户状态</label>
                 <div class="layui-input-block">
 					<select name='status'>
-						<option value ="1" @if($user_info['status']==1) selected @endif> 禁用 </option>
-						<option value ="2" @if($user_info['status']==2) selected @endif> 在用 </option>
+						<option value ="1" @if($user_info['status']==1) selected @endif> 在用 </option>
+						<option value ="2" @if($user_info['status']==2) selected @endif> 禁用 </option>
 					</select>
                 </div>
             </div>

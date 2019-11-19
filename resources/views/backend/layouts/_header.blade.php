@@ -25,8 +25,8 @@
         @else
         <li class="layui-nav-item">
             <a href="javascript:;">
-                <img src="/leju.png" class="layui-nav-img" />
-                {{ Auth::user()->username }}
+                <img src="/58logo.png" class="layui-nav-img" />
+                {{ Auth::user()->user_name }}
             </a>
             <dl class="layui-nav-child layui-nav-header">
                 <dd><a href="/admin/user/info">基本资料</a></dd>

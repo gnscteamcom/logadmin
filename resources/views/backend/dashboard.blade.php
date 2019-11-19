@@ -12,7 +12,7 @@
             <legend>{{$title}}</legend>
         </fieldset>
 
-        <blockquote class="layui-elem-quote">欢迎使用 leju 日志管理系统！</blockquote>
+        <blockquote class="layui-elem-quote">欢迎使用 58 日志管理系统！</blockquote>
 
     </div>
 

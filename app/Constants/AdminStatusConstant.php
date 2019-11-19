@@ -7,8 +7,8 @@ namespace App\Constants;
 class AdminStatusConstant
 {
     const ADMIN_STATUS_DELETE = 0;  // 删除
-    const ADMIN_STATUS_UNABLE = 1;  // 禁用
-    const ADMIN_STATUS_ABLE   = 2;  // 可用
+    const ADMIN_STATUS_ABLE   = 1;  // 可用
+    const ADMIN_STATUS_UNABLE = 2;  // 禁用
 
     static public $admin_status = array(
         self::ADMIN_STATUS_UNABLE,

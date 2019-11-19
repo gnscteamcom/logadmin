@@ -42,7 +42,7 @@ return [
 			'driver' => 'mongodb',
 			'host' => env('MONGO_HOST', '127.0.0.1'),
 			'port' => env('MONGO_PORT', 27017),
-			'database' => env('MONGO_DATABASE', 'leju_com_log'),
+			'database' => env('MONGO_DATABASE', 'wuba_com_log'),
 		],
 		
         'mysql_log_admin' => [

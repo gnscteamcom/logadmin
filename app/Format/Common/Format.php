@@ -1,6 +1,6 @@
 <?php
 /**
- * User: WangYe
+ * Format
  */
 namespace App\Format\Common;
 use App\Format\Common\Format;

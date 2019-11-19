@@ -17,6 +17,7 @@
         <link href="{{asset('js/layui/css/layui.css')}}" rel="stylesheet" type="text/css">
         <link href="{{asset('css/administrator.css')}}" rel="stylesheet" type="text/css">
         <link rel="apple-touch-icon" href="/favicon.png">
+        <link rel="icon" href="/favicon.png" type="image/x-icon"/>
         @yield('styles')
     </head>
     <body  class="layui-layout users-index-body">

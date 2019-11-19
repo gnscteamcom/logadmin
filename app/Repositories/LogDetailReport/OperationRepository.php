@@ -1,8 +1,8 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: WangYe
- * Date: 2018/10/09
+ * User: hanjinhu
+ * Date: 2019/11/01
  */
 
 namespace App\Repositories\LogDetailReport;
@@ -19,7 +19,7 @@ class OperationRepository
     public function __construct()
     {
    		$this->dbObj = DB::connection('mongodb_log');
-        $this->collection = 'leju_log_list';
+        $this->collection = 'wuba_log_list';
     }
 
 	

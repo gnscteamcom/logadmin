@@ -45,6 +45,7 @@ class RoleRepository extends BaseRepository
         $data = array();
         $data['role_name'] = $params['role_name'] ?? '';
         $data['parent_id'] = 0;
+        $data['status'] = 1;
         $data['level'] = $params['level'] ?? 99;
         $data['description'] = $params['description'] ?? 99;
         $data['create_time'] = time();

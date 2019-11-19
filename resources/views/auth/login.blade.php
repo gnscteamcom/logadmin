@@ -14,7 +14,7 @@
 
     <div class="layui-row">
         <div class="layui-col-md4 layui-col-md-offset4">
-            <div class="login-title">乐居日志系统</div>
+            <div class="login-title">58日志系统</div>
         </div>
     </div>
 
